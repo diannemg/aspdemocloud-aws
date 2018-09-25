@@ -3,7 +3,7 @@ volumes:
   'virtdbnx-asp':
     driver: hpecv
     driver_opts:
-      importVol: virtdbnxContext
+      importVolAsClone: virtdbnx_virtdbnx-asp.docker
       forceImport: "true"
 services:
   virtdbnx:
