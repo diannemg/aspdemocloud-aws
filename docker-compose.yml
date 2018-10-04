@@ -7,6 +7,7 @@ volumes:
       forceImport: "true"
       createSnapshot: "true"
       snapshot: basesnap
+      destroyOnDetach: "true"
 services:
   virtdbnx:
     image: tmeregistry.azurecr.io/virtdbnx-asp
