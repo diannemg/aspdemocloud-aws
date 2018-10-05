@@ -6,7 +6,6 @@ volumes:
       importVolAsClone: virtdbnx-AZURE_virtdbnx-asp.docker
       forceImport: "true"
       createSnapshot: "true"
-      snapshot: basesnap
       destroyOnDetach: "true"
 services:
   virtdbnx:
