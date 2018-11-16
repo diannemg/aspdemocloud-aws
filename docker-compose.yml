@@ -3,7 +3,7 @@ volumes:
   'virtdbnx-asp':
     driver: hpecv
     driver_opts:
-      importVolAsClone: virtdbnx-AZURE_virtdbnx-asp.docker
+      cloneOf: virtdbnx-AZURE_virtdbnx-asp
       forceImport: "true"
       createSnapshot: "true"
       destroyOnDetach: "true"
